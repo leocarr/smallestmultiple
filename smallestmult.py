@@ -1,6 +1,6 @@
 # smallest multiple
 
-maxmult = 20
+maxmult = int(input("What is the max multiple? "))
 found = False
 smallest = 0 
 current = maxmult
@@ -15,5 +15,5 @@ while found == False:
     else:
         current += maxmult
 
-print(smallest)
+print("The smallest number that is evenly divisible by all of the numbers from 1 to " + str(maxmult) + " is " + str(smallest))
 
